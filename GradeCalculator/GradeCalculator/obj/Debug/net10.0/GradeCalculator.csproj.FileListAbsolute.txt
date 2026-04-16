@@ -1,0 +1,14 @@
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\bin\Debug\net10.0\GradeCalculator.exe
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\bin\Debug\net10.0\GradeCalculator.deps.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\bin\Debug\net10.0\GradeCalculator.runtimeconfig.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\bin\Debug\net10.0\GradeCalculator.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\bin\Debug\net10.0\GradeCalculator.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.AssemblyInfoInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.AssemblyInfo.cs
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\refint\GradeCalculator.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.genruntimeconfig.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\ref\GradeCalculator.dll
