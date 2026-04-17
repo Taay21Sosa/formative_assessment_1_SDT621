@@ -1,0 +1,15 @@
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.AssemblyInfoInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.AssemblyInfo.cs
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.csproj.CoreCompileInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.sourcelink.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\bin\Debug\net10.0\MunicipalitySystem.exe
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\bin\Debug\net10.0\MunicipalitySystem.deps.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\bin\Debug\net10.0\MunicipalitySystem.runtimeconfig.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\bin\Debug\net10.0\MunicipalitySystem.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\bin\Debug\net10.0\MunicipalitySystem.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\refint\MunicipalitySystem.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\MunicipalitySystem.genruntimeconfig.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\MunicipalitySystem\MunicipalitySystem\obj\Debug\net10.0\ref\MunicipalitySystem.dll
