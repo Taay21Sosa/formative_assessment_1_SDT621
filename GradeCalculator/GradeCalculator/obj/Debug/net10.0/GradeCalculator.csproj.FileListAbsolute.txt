@@ -12,3 +12,4 @@ C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\Gr
 C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.pdb
 C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.genruntimeconfig.cache
 C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\ref\GradeCalculator.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\GradeCalculator\GradeCalculator\obj\Debug\net10.0\GradeCalculator.sourcelink.json
