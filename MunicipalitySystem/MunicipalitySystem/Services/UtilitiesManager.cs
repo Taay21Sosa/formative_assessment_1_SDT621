@@ -7,6 +7,11 @@ namespace MunicipalitySystem.Services
 {
     public class UtilitiesManager
     {
+        //========== Residents services ==========//
+
+
+        //========== Requests services ==========//
+
         /*
          * Calculates the requests urgency score based on priority, severity, and time.
          * A higher score, the higher the urgency for the request.
@@ -16,6 +21,8 @@ namespace MunicipalitySystem.Services
             double score = (request.PriorityLevel * 10) + (request.SeverityLevel * 5) - (request.EstimatedResolutionTime * 0.5);
             return Math.Max(0, score);
         }
+
+        //========== Formmating and layout services ==========//
 
         /*
          * 

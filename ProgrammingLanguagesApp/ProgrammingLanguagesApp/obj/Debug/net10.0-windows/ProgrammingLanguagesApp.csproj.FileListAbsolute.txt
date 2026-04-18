@@ -1,0 +1,17 @@
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\bin\Debug\net10.0-windows\ProgrammingLanguagesApp.exe
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\bin\Debug\net10.0-windows\ProgrammingLanguagesApp.deps.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\bin\Debug\net10.0-windows\ProgrammingLanguagesApp.runtimeconfig.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\bin\Debug\net10.0-windows\ProgrammingLanguagesApp.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\bin\Debug\net10.0-windows\ProgrammingLanguagesApp.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.Form1.resources
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.csproj.GenerateResource.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.AssemblyInfoInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.AssemblyInfo.cs
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.csproj.CoreCompileInputs.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.sourcelink.json
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\refint\ProgrammingLanguagesApp.dll
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.pdb
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ProgrammingLanguagesApp.genruntimeconfig.cache
+C:\Users\nlmbt\OneDrive\Documents\Projects\C#\Formative Assessment 1 - SDT621\ProgrammingLanguagesApp\ProgrammingLanguagesApp\obj\Debug\net10.0-windows\ref\ProgrammingLanguagesApp.dll

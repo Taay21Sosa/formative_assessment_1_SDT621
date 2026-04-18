@@ -11,9 +11,9 @@ class MuniciplaitySystem
         ResidentServices residentService = new ResidentServices();
         ServiceRequestManager serviceRequestManager = new ServiceRequestManager();
 
-        Console.WriteLine("=================================================");
-        Console.WriteLine("***       EMFULENI MUNICIPALITY SYSTEM       ***");
-        Console.WriteLine("=================================================");
+        Console.WriteLine("======================================================");
+        Console.WriteLine("*****        EMFULENI MUNICIPALITY SYSTEM        *****");
+        Console.WriteLine("======================================================");
 
         // Determines the number of residents, then registers residents and thier details
         int residentCount = residentService.GetNumberOfResidents();
