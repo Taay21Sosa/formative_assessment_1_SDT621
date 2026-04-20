@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            comboBox1 = new ComboBox();
-            button1 = new Button();
-            label5 = new Label();
-            richTextBox1 = new RichTextBox();
-            button2 = new Button();
+            lblHeading = new Label();
+            lblName = new Label();
+            lblID = new Label();
+            lblCitizen = new Label();
+            txtName = new TextBox();
+            txtID = new TextBox();
+            cmbCitizen = new ComboBox();
+            btnValidate = new Button();
+            lblAge = new Label();
+            rtextOutput = new RichTextBox();
+            btnGenerate = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -55,112 +55,111 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // label1
+            // lblHeading
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 21F, FontStyle.Bold);
-            label1.ForeColor = Color.Green;
-            label1.Location = new Point(645, 22);
-            label1.Name = "label1";
-            label1.Size = new Size(667, 47);
-            label1.TabIndex = 1;
-            label1.Text = "Home Affairs Digital Identity Processor";
+            lblHeading.AutoSize = true;
+            lblHeading.Font = new Font("Segoe UI", 21F, FontStyle.Bold);
+            lblHeading.ForeColor = Color.Green;
+            lblHeading.Location = new Point(645, 22);
+            lblHeading.Name = "lblHeading";
+            lblHeading.Size = new Size(667, 47);
+            lblHeading.TabIndex = 1;
+            lblHeading.Text = "Home Affairs Digital Identity Processor";
             // 
-            // label2
+            // lblName
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label2.Location = new Point(673, 108);
-            label2.Name = "label2";
-            label2.Size = new Size(183, 25);
-            label2.TabIndex = 2;
-            label2.Text = "Enter your name: ";
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            lblName.Location = new Point(673, 108);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(183, 25);
+            lblName.TabIndex = 2;
+            lblName.Text = "Enter your name: ";
             // 
-            // label3
+            // lblID
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label3.Location = new Point(673, 181);
-            label3.Name = "label3";
-            label3.Size = new Size(138, 25);
-            label3.TabIndex = 3;
-            label3.Text = "Enter you ID:";
+            lblID.AutoSize = true;
+            lblID.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            lblID.Location = new Point(673, 181);
+            lblID.Name = "lblID";
+            lblID.Size = new Size(138, 25);
+            lblID.TabIndex = 3;
+            lblID.Text = "Enter you ID:";
             // 
-            // label4
+            // lblCitizen
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label4.Location = new Point(673, 253);
-            label4.Name = "label4";
-            label4.Size = new Size(204, 25);
-            label4.TabIndex = 4;
-            label4.Text = "Coose your citizen: ";
+            lblCitizen.AutoSize = true;
+            lblCitizen.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
+            lblCitizen.Location = new Point(673, 253);
+            lblCitizen.Name = "lblCitizen";
+            lblCitizen.Size = new Size(204, 25);
+            lblCitizen.TabIndex = 4;
+            lblCitizen.Text = "Coose your citizen: ";
             // 
-            // textBox1
+            // txtName
             // 
-            textBox1.Font = new Font("Segoe UI", 12F);
-            textBox1.Location = new Point(926, 102);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(300, 34);
-            textBox1.TabIndex = 5;
+            txtName.Font = new Font("Segoe UI", 12F);
+            txtName.Location = new Point(926, 102);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(300, 34);
+            txtName.TabIndex = 5;
             // 
-            // textBox2
+            // txtID
             // 
-            textBox2.Font = new Font("Segoe UI", 12F);
-            textBox2.Location = new Point(926, 175);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(300, 34);
-            textBox2.TabIndex = 6;
+            txtID.Font = new Font("Segoe UI", 12F);
+            txtID.Location = new Point(926, 175);
+            txtID.Name = "txtID";
+            txtID.Size = new Size(300, 34);
+            txtID.TabIndex = 6;
             // 
-            // comboBox1
+            // cmbCitizen
             // 
-            comboBox1.Font = new Font("Segoe UI", 12F);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(926, 247);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(300, 36);
-            comboBox1.TabIndex = 7;
+            cmbCitizen.Font = new Font("Segoe UI", 12F);
+            cmbCitizen.FormattingEnabled = true;
+            cmbCitizen.Location = new Point(926, 247);
+            cmbCitizen.Name = "cmbCitizen";
+            cmbCitizen.Size = new Size(300, 36);
+            cmbCitizen.TabIndex = 7;
             // 
-            // button1
+            // btnValidate
             // 
-            button1.BackColor = Color.Green;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            button1.Location = new Point(825, 320);
-            button1.Name = "button1";
-            button1.Size = new Size(225, 43);
-            button1.TabIndex = 8;
-            button1.Text = "Validate";
-            button1.UseVisualStyleBackColor = false;
+            btnValidate.BackColor = Color.Green;
+            btnValidate.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnValidate.Location = new Point(873, 322);
+            btnValidate.Name = "btnValidate";
+            btnValidate.Size = new Size(225, 43);
+            btnValidate.TabIndex = 8;
+            btnValidate.Text = "Validate";
+            btnValidate.UseVisualStyleBackColor = false;
             // 
-            // label5
+            // lblAge
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 11F);
-            label5.Location = new Point(748, 381);
-            label5.Name = "label5";
-            label5.Size = new Size(63, 25);
-            label5.TabIndex = 9;
-            label5.Text = "label5";
+            lblAge.AutoSize = true;
+            lblAge.Font = new Font("Segoe UI", 11F);
+            lblAge.Location = new Point(748, 381);
+            lblAge.Name = "lblAge";
+            lblAge.Size = new Size(0, 25);
+            lblAge.TabIndex = 9;
             // 
-            // richTextBox1
+            // rtextOutput
             // 
-            richTextBox1.Font = new Font("Segoe UI", 11F);
-            richTextBox1.Location = new Point(748, 427);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(452, 253);
-            richTextBox1.TabIndex = 10;
-            richTextBox1.Text = "";
+            rtextOutput.Font = new Font("Segoe UI", 11F);
+            rtextOutput.Location = new Point(748, 427);
+            rtextOutput.Name = "rtextOutput";
+            rtextOutput.Size = new Size(452, 253);
+            rtextOutput.TabIndex = 10;
+            rtextOutput.Text = "";
             // 
-            // button2
+            // btnGenerate
             // 
-            button2.BackColor = Color.Green;
-            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            button2.Location = new Point(885, 716);
-            button2.Name = "button2";
-            button2.Size = new Size(225, 43);
-            button2.TabIndex = 11;
-            button2.Text = "Generate Profile";
-            button2.UseVisualStyleBackColor = false;
+            btnGenerate.BackColor = Color.Green;
+            btnGenerate.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnGenerate.Location = new Point(873, 705);
+            btnGenerate.Name = "btnGenerate";
+            btnGenerate.Size = new Size(225, 43);
+            btnGenerate.TabIndex = 11;
+            btnGenerate.Text = "Generate Profile";
+            btnGenerate.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -168,17 +167,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSalmon;
             ClientSize = new Size(1402, 793);
-            Controls.Add(button2);
-            Controls.Add(richTextBox1);
-            Controls.Add(label5);
-            Controls.Add(button1);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(btnGenerate);
+            Controls.Add(rtextOutput);
+            Controls.Add(lblAge);
+            Controls.Add(btnValidate);
+            Controls.Add(cmbCitizen);
+            Controls.Add(txtID);
+            Controls.Add(txtName);
+            Controls.Add(lblCitizen);
+            Controls.Add(lblID);
+            Controls.Add(lblName);
+            Controls.Add(lblHeading);
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Form1";
@@ -190,16 +189,16 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private ComboBox comboBox1;
-        private Button button1;
-        private Label label5;
-        private RichTextBox richTextBox1;
-        private Button button2;
+        private Label lblHeading;
+        private Label lblName;
+        private Label lblID;
+        private Label lblCitizen;
+        private TextBox txtName;
+        private TextBox txtID;
+        private ComboBox cmbCitizen;
+        private Button btnValidate;
+        private Label lblAge;
+        private RichTextBox rtextOutput;
+        private Button btnGenerate;
     }
 }
