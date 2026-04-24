@@ -4,20 +4,20 @@ using System.Text;
 
 namespace DigitalIdentityProcessor.Models
 {
-    public class Citizen
+    public class CitizenProfile
     {
         //
         public string FullName { get; set; }
         public string ID { get; set; }
         public int Age { get; set; }
-        public string Citizenship { get; set; }
+        public string CitizenshipStatus { get; set; }
 
         // Constructor 
-        public Citizen(string fullName, string id, string citizenship)
+        public CitizenProfile(string fullName, string id, string citizenshipStatus)
         {
             FullName = fullName;
             ID = id;
-            Citizenship = citizenship;
+            CitizenshipStatus = citizenshipStatus;
 
             CalculateAge();
         }
@@ -66,25 +66,25 @@ namespace DigitalIdentityProcessor.Models
         {
             if (string.IsNullOrEmpty(ID))
             {
-                return "Invalid input: ID Number cannot be empty.";
+                return "Invalid ID: ID Number cannot be empty.";
             }
             
-            if (ID.Length < 13)
+            if (ID.Length != 13)
             {
-                return "Invalid input: ID Number must contain exactly 13 digits.";
+                return "Invalid ID: ID Number must contain exactly 13 digits.";
             }
 
-            if (ID.All(char.IsDigit))
+            if (!ID.All(char.IsDigit))
             {
-                return "Invalid input: ID Number must be completely numeric.";
+                return "Invalid ID: ID Number must be only contain numbers.";
             }
 
             if (Age < 0 || Age > 120)
             {
-                return "Invalid input: Citizens age is invalid based on ID number. Check ID format and ty again.";
+                return "Invalid ID: Citizens age is invalid based on ID number.";
             }
 
-            return "Valid input: ID entered passed all checks.";
+            return $"Valid ID: Citizen is {Age} years old.";
         }
 
     }

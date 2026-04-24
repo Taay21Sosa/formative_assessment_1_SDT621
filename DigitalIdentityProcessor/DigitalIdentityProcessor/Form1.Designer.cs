@@ -36,9 +36,9 @@
             lblCitizen = new Label();
             txtName = new TextBox();
             txtID = new TextBox();
-            cmbCitizen = new ComboBox();
+            cmbCitizenship = new ComboBox();
             btnValidate = new Button();
-            lblAge = new Label();
+            lblResults = new Label();
             rtextOutput = new RichTextBox();
             btnGenerate = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -112,14 +112,15 @@
             txtID.Size = new Size(300, 34);
             txtID.TabIndex = 6;
             // 
-            // cmbCitizen
+            // cmbCitizenship
             // 
-            cmbCitizen.Font = new Font("Segoe UI", 12F);
-            cmbCitizen.FormattingEnabled = true;
-            cmbCitizen.Location = new Point(926, 247);
-            cmbCitizen.Name = "cmbCitizen";
-            cmbCitizen.Size = new Size(300, 36);
-            cmbCitizen.TabIndex = 7;
+            cmbCitizenship.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCitizenship.Font = new Font("Segoe UI", 12F);
+            cmbCitizenship.FormattingEnabled = true;
+            cmbCitizenship.Location = new Point(926, 247);
+            cmbCitizenship.Name = "cmbCitizenship";
+            cmbCitizenship.Size = new Size(300, 36);
+            cmbCitizenship.TabIndex = 7;
             // 
             // btnValidate
             // 
@@ -131,21 +132,23 @@
             btnValidate.TabIndex = 8;
             btnValidate.Text = "Validate";
             btnValidate.UseVisualStyleBackColor = false;
+            btnValidate.Click += btnValidate_Click;
             // 
-            // lblAge
+            // lblResults
             // 
-            lblAge.AutoSize = true;
-            lblAge.Font = new Font("Segoe UI", 11F);
-            lblAge.Location = new Point(748, 381);
-            lblAge.Name = "lblAge";
-            lblAge.Size = new Size(0, 25);
-            lblAge.TabIndex = 9;
+            lblResults.AutoSize = true;
+            lblResults.Font = new Font("Segoe UI", 11F);
+            lblResults.Location = new Point(748, 381);
+            lblResults.Name = "lblResults";
+            lblResults.Size = new Size(0, 25);
+            lblResults.TabIndex = 9;
             // 
             // rtextOutput
             // 
             rtextOutput.Font = new Font("Segoe UI", 11F);
             rtextOutput.Location = new Point(748, 427);
             rtextOutput.Name = "rtextOutput";
+            rtextOutput.ReadOnly = true;
             rtextOutput.Size = new Size(452, 253);
             rtextOutput.TabIndex = 10;
             rtextOutput.Text = "";
@@ -160,6 +163,7 @@
             btnGenerate.TabIndex = 11;
             btnGenerate.Text = "Generate Profile";
             btnGenerate.UseVisualStyleBackColor = false;
+            btnGenerate.Click += btnGenerate_Click;
             // 
             // Form1
             // 
@@ -169,9 +173,9 @@
             ClientSize = new Size(1402, 793);
             Controls.Add(btnGenerate);
             Controls.Add(rtextOutput);
-            Controls.Add(lblAge);
+            Controls.Add(lblResults);
             Controls.Add(btnValidate);
-            Controls.Add(cmbCitizen);
+            Controls.Add(cmbCitizenship);
             Controls.Add(txtID);
             Controls.Add(txtName);
             Controls.Add(lblCitizen);
@@ -195,9 +199,9 @@
         private Label lblCitizen;
         private TextBox txtName;
         private TextBox txtID;
-        private ComboBox cmbCitizen;
+        private ComboBox cmbCitizenship;
         private Button btnValidate;
-        private Label lblAge;
+        private Label lblResults;
         private RichTextBox rtextOutput;
         private Button btnGenerate;
     }
