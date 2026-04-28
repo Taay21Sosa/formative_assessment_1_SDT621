@@ -7,10 +7,6 @@ namespace MunicipalitySystem.Services
 {
     public class UtilitiesManager
     {
-        //========== Residents services ==========//
-
-
-        //========== Requests services ==========//
 
         /*
          * Calculates the requests urgency score based on priority, severity, and time.

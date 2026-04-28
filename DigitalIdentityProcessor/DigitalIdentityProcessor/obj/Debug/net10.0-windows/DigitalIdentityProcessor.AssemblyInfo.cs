@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalIdentityProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93d60aaa83972e894963293badc416d637777358")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ca02bbac7c81ed05e7923ce23b6d361f3de7c07")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalIdentityProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalIdentityProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

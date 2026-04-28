@@ -40,7 +40,27 @@ namespace DigitalIdentityProcessor
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
+            // Check if a profile has been created via the Validate button first
+            if (currentProfile == null)
+            {
+                MessageBox.Show("Please validate an ID first before generating a profile.", "Missing Data", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
+            // Generate the formatted summary
+            string validationStatus = currentProfile.ValidateID();
+            string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            rtextOutput.Text = "===== DIGITAL CITIZEN SUMMARY =====\r\n" +
+                              $"Full Name  : {currentProfile.FullName}\r\n" +
+                              $"ID Number  : {currentProfile.ID}\r\n" +
+                              $"Age        : {currentProfile.Age} years old\r\n" +
+                              $"Citizenship: {currentProfile.CitizenshipStatus}\r\n" +
+                              "------------------------------------\r\n" +
+                              $"Validation   : {validationStatus}\r\n" +
+                              $"Processed At : Home Affairs Digital Desk" +
+                              $"Timestamp    : {timestamp}";
         }
+    
     }
 }
