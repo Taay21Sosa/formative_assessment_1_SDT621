@@ -4,7 +4,7 @@ namespace DigitalIdentityProcessor
 {
     public partial class Form1 : Form
     {
-        private CitizenProfile currentProfile;
+        private CitizenProfile? currentProfile;
 
         public Form1()
         {
@@ -30,7 +30,7 @@ namespace DigitalIdentityProcessor
 
             string name = txtName.Text.Trim();
             string id = txtID.Text.Trim();
-            string citizenship = cmbCitizenship.SelectedItem.ToString();
+            string citizenship = cmbCitizenship.SelectedItem.ToString() ?? string.Empty;
 
             currentProfile = new CitizenProfile(name, id, citizenship);
 

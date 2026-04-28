@@ -62,7 +62,7 @@ class GradeCalculator
         Console.WriteLine($"{subjects[2],-15}: {marks[2],6:F2}");
         Console.WriteLine("-----------------------------");
         Console.WriteLine($"Total marks: {totalMark}/300");
-        Console.WriteLine($"Average marks: {averageMark}");
+        Console.WriteLine($"Average marks: {averageMark:0.0}");
         Console.WriteLine($"Result: {finalResult}");
         Console.WriteLine($"Result issued at: {DateTime.Now}");
         Console.WriteLine("======================================");
